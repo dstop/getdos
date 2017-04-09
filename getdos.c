@@ -1,4 +1,7 @@
 //build: gcc getdos.c -pthread -o getdos
+//Example: ./getdos \"http://www.xxx.com/new.php?id=5&p=5\" 10\r\n
+//by:dstop
+
 #include <stdio.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
