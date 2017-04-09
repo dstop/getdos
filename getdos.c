@@ -1,4 +1,4 @@
-//build: gcc get.c -pthread -o getdos
+//build: gcc getdos.c -pthread -o getdos
 #include <stdio.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
