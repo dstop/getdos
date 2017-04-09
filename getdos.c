@@ -31,7 +31,7 @@ void* senddata()
             i++;
             read(sockfd, buf, 4090);
             printf("%s\n", buf);
-            sleep(3);
+            //sleep(3);
             memset(buf, 0, sizeof(buf));
             
         }
