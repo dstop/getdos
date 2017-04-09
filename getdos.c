@@ -63,7 +63,8 @@ int main(int argc,char *argv[])
         sprintf(data1,"GET /%s HTTP/1.1\r\nHost: %s\r\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0)\r\nAccept: text/html\r\nAccept-Language: en-US\r\nAccept-Encoding: compress\r\nConnection: keep-alive\r\nCache-Control: no-cache\r\n\r\n",url,host);
         memcpy(data,data1,sizeof(data));
     } else {
-        printf("not have a url.\r\n");
+        printf("Example: ./getdos \"http://www.xxx.com/new.php?id=5&p=5\" 10\r\n");
+        exit(0);
     }
 
     if (argc>2)
